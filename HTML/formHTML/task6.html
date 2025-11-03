@@ -6,10 +6,10 @@
     <title>Document</title>
   </head>
   <body>
-    <table border="1" cellspacing="0" cellpadding="5">
+    <table border="0" cellspacing="0" cellpadding="5">
       <tr>
         <td rowspan="10">
-          <img src="./Screenshot 2025-11-02 221641.png" alt="Doctor" width="250px" />
+          <img src="./Screenshot 2025-11-02 221641.png" alt="Doctor" width="500px" />
         </td>
         <th colspan="3">Doctor Appointment Form <hr></th>
       </tr>
@@ -49,12 +49,59 @@
             <input type="radio" name="gender" id="gender">
             <span>Female</span>
         </td>
+        <td></td>
       </tr>
       <tr>
-
+        <td>Phone Number</td>
+        <td>
+          <label for="number"></label>
+          <input type="tel" name="number" id="number" placeholder="####">
+        </td>
+        <td></td>
       </tr>
       <tr>
-
+        <td>Address</td>
+        <td>
+          <label for="address"></label>
+          <input type="text" name="address" id="address" placeholder="city">
+        </td>
+        <td>
+          <label for="address"></label>
+          <input type="text" name="address" id="state" placeholder="state">
+        </td>
+      </tr>
+      <tr>
+        <td>Your Query</td>
+        <td>
+          <label for="Query"></label>
+          <textarea name="Query" id="query"></textarea>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Appointment Type</td>
+        <td>
+          <p>Select which appointment tyoe(s) you require</p>
+          <div>
+            <label for="Appointment"></label>
+            <input type="checkbox" name="Appointment" id="Appointment1" >
+            <span>Cervix Checkup</span><br>
+            <input type="checkbox" name="Appointment" id="Appointment2">
+            <span>Heart Checkup</span><br>
+            <input type="checkbox" name="Appointment" id="Appointment3">
+            <span>Eye Checkup</span><br>
+            <input type="checkbox" name="Appointment" id="Appointment4">
+            <span>Hearing Test</span>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button>Send</button>
+        </td>
+        <td></td>
       </tr>
     </table>
   </body>
