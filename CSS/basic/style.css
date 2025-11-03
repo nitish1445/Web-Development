@@ -1,0 +1,17 @@
+*{
+    background-color: aqua;
+}
+#abc{
+   background: linear-gradient(135deg ,rgb(165, 107, 107) 0,rgb(28, 170, 28) 30%,rgb(37, 37, 168) 60%,rgb(175, 175, 39) 80%);
+    text-align: center;
+    color: rgb(13, 207, 117);
+}
+p{
+    border: 1.5px dotted cornflowerblue;
+}
+.A{
+    background-color: azure;
+}
+.B{
+    color: rgb(49, 19, 214);
+}
