@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(10, 90, 238);
+}
+#mainBox1{
+    max-width: 350px;
+    max-height: 500px;
+    margin: 100px auto;
+    padding: 30px 20px;
+    border: 2px solid #000;
+    background-color: white;
+    border-radius: 20px 10px;
+    
+}
+.loginDetail{
+    opacity: 70%;
+    margin: 20px 10px;
+    /* box-shadow: 4px 2px 4px 2px red; */
+    border-bottom: 3px solid #000;
+    input{
+        border: none;
+        font-size: medium;
+    }
+}
+.rememberPassword{
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    #forgetPassword{
+        color: blue;
+    }
+}
+p{
+    padding: 10px;
+    margin: 30px 10px 20px 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+}
+
+h1{
+    padding: auto ;
+    margin:  20px auto 30px 10px;
+    span{
+        padding: none;
+        margin: none;
+        border-bottom: 3px solid blue;
+    }
+}
+#signupNow{
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+    #signupAccount{
+        color: blue;
+    }
+}
