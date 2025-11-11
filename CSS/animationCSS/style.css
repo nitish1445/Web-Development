@@ -1,0 +1,66 @@
+h1{
+    width: 200px;
+    border: 2px solid #000;
+    background-color: aliceblue;
+}
+h1:hover{
+    width: 500px;
+    transition: width 5s;
+}
+#outer{
+  width: 400px;
+  height: 100px;
+  border: 2px solid #000;
+  #inner{
+    width: 0%;
+    height: 100px;
+    background-color: blue;
+  }
+}
+#outer:hover{
+    #inner{
+        background-color: rgb(211, 19, 147);
+        width: 100%;
+        transition: width 5s, background-color 5s ease-in-out;
+    }
+}
+
+#outer1{
+  width: 600px;
+  height: 100px;
+  border: 2px solid #000;
+  #inner1{
+   height: 100px; 
+  }
+}
+#outer1:hover{
+    #inner1{
+       animation: myAnimations 5s linear;
+    }
+}
+
+
+@keyframes myAnimations {
+    0%{
+        width: 0%;
+        background-color: red;
+    }
+    50%{
+        width: 50%;
+        background-color: yellow;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
+#d2{
+    width: 100px;
+    height: 50px;
+    font-size: xx-large;
+    border: 1px solid #000;
+}
+#d2:hover{
+     transform: rotateX(90deg);
+     transition: transform 2s;
+}
