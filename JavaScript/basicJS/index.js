@@ -20,3 +20,7 @@ if(confirm("Are you sure"))
 }else{
     console.log("its ok");
 }
+
+let x= 8;
+let y=9;
+console.log(`The value of ${x} and ${y} is ${x+y}`);
