@@ -1,0 +1,69 @@
+#bulb {
+  padding: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: fit-content;
+}
+button {
+  margin: 5px;
+}
+
+#smartBulb {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.On {
+  background-color: yellow;
+}
+
+#newBulb {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.colour {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#colourButton {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+#c1 {
+  background-color: violet;
+}
+#c2 {
+  background-color: indigo;
+}
+#c3 {
+  background-color: blue;
+}
+#c4 {
+  background-color: green;
+}
+#c5 {
+  background-color: yellow;
+}
+#c6 {
+  background-color: orange;
+}
+#c7 {
+  background-color: red;
+}
