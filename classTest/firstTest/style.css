@@ -1,0 +1,10 @@
+#courses{
+    img{
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
