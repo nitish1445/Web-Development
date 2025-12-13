@@ -38,7 +38,7 @@
 
           <div>
             <label for="dob"></label>
-            <input type="date" id="dob" class="form-control" />
+            <input type="date" id="birthYear" class="form-control" />
           </div>
 
           <div class="text-center mt-4">
@@ -47,17 +47,18 @@
 
           <div>
             <label for="current date"></label>
-            <input type="date" id="currentDate" class="form-control mb-3" />
+            <input type="date" id="currentYear" class="form-control mb-3" />
           </div>
 
           <div class="text-center m-3">
-            <button
-              class="btn btn-primary py-2 px-5 mt-3"
-              onclick="calculate()"
-            >
+            <button class="btn btn-primary py-2 px-4" onclick="calculateAge()">
               Calculate
             </button>
           </div>
+        </div>
+
+        <div class="text-center mt-3">
+          <h5 id="result"></h5>
         </div>
       </section>
     </main>
